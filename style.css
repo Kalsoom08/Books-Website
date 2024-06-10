@@ -1,0 +1,51 @@
+body{background-color: #fdf7f7;}
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  background-color: #f5e4e4;
+  border-radius: 10px;
+ box-shadow: 
+}
+
+th, td {
+  border: none;
+  padding: 12px;
+  text-align: center;
+  font-size: larger;
+}
+
+.Months{
+ height: 80px;
+  text-align: start;
+  border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 400px) {
+  table {
+   
+    background-color:rgb(229, 251, 224);
+  }
+  .table-container{
+    width: 100%;
+    align-items: center;
+  }
+  th{
+  font-size: large;
+  border: 1px solid gainsboro;
+    padding: 2px;
+  }
+  td{
+    font-size: small;
+  }
+  .Months{
+    border-bottom: 1px solid gainsboro;
+  }
+}

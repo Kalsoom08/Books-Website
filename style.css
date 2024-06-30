@@ -9,10 +9,10 @@ body{
 #logo{
     display: flex;
     justify-content: center; 
-    margin-top: -75px;
+    margin-top: -20px;
 }
 #logo img{
-    width: 250px;
+    width: 190px;
 }
 
 /* navbarr */
@@ -24,6 +24,7 @@ nav{
     top: 0px;
     border-bottom: 1px solid whitesmoke;
     padding-bottom: 10px;
+    background-color: antiquewhite;
 }
 nav a{
     color: #000000;
@@ -43,12 +44,19 @@ nav a{
     background-color: #000000;
     margin-right: -100px;
 }
-.slider h1{
+#first{
     margin-left: 20px;
     margin-top: 20px;
     font-size: xx-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Books */
+.card {
+    display: flex;
+}
+
+
 
 /* for mobile */
 @media (max-width : 420px) {
@@ -58,18 +66,18 @@ nav a{
     #logo{
         display: flex;
         justify-content: center;
-        margin-top: -25px;
+        margin-top: -15px;
        
     }
     #logo img{
-        width: 130px;
+        width: 110px;
     }
     
     /* Navbar */
     nav{
         display: flex;
         justify-content: space-evenly;
-        margin-top: -20px;
+        margin-top: -15px;
         position: sticky;
         top: 0px;
     }
@@ -79,14 +87,35 @@ nav a{
         font-size: small;
     }
     
-    .slider h1{
+    /* slider */
+    h1{
         margin-left: 10px;
         margin-top: 10px;
         font-size: 13px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
    
-    
+ /*Books  */
+#card-body{
+    display: flex;
+    justify-content: center;
+
 }
+.card  #card-body img{
+width: 380px;
+height: 250px;
 
-
+}
+.card h3{
+    position: relative;
+    top :-100px;
+    margin-left: 100px;
+    color: aliceblue;
+}
+.card a{
+    position: relative;
+    top :-100px;
+    margin-left: 200px;  
+    color: aliceblue;
+}
+}
